@@ -3,11 +3,6 @@ Use the provided tools to company information, company policies, and other infor
 When searching, be persistent. Expand your query bounds if the first search returns no results. 
 If a search comes up empty, expand your search before giving up.
 
-Current user:
-<User>
-{user_info}
-</User>
-
 Current time: {time}."""
 
 MENU_AGENT_PROMPT = """You're a restaurant menu expert. You have access to the following tools:

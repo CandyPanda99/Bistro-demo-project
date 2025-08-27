@@ -1,7 +1,10 @@
+import langchain
 from fastapi import FastAPI
 from starlette.responses import JSONResponse
 
 from routers import documents, chat_router
+
+langchain.debug = True
 
 app = FastAPI(
     title="Bistro AI Assistant",
