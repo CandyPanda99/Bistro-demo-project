@@ -7,13 +7,15 @@ from models.chat_models.chat_openai import get_openai_chat
 from tools.ddg_search_tool import ddg_search
 from tools.information_tool import lookup_information
 from tools.menu_agent_tool import menu_agent_tool
+from tools.resservation_tool import reservation_tool
 
 llm = get_openai_chat()
 
 tools = [
     ddg_search,
     lookup_information,
-    menu_agent_tool
+    menu_agent_tool,
+    reservation_tool
 ]
 
 prompt = ChatPromptTemplate.from_messages(

@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 from langchain_pinecone import PineconeVectorStore
 from pinecone import Pinecone
 
-from embeddings.open_ai_embedding import get_openai_embeddings
+from models.embeddings.open_ai_embedding import get_openai_embeddings
 
 load_dotenv()
 
