@@ -1,0 +1,166 @@
+{
+  "category": "Appetizers & Soups",
+  "subcategories": [
+    {
+      "name": "Soups",
+      "items": [
+        {
+          "name": "Sweet Corn Chicken Soup",
+          "price": 1050,
+          "description": "Sweet corn kernels in a flavorful chicken broth with egg drop.",
+          "attributes": {
+            "dietary": {
+              "vegetarian": false,
+              "vegan": false,
+              "halal": true
+            },
+            "spice_level": "mild"
+          },
+          "ingredients": [
+            "chicken",
+            "sweet corn",
+            "chicken broth",
+            "egg"
+          ]
+        },
+        {
+          "name": "Roasted Fish Soup",
+          "price": 1050,
+          "description": "A hearty soup with roasted fish, cumin seeds, and red onions.",
+          "attributes": {
+            "dietary": {
+              "vegetarian": false,
+              "vegan": false,
+              "halal": true
+            },
+            "spice_level": "mild"
+          },
+          "ingredients": [
+            "fish",
+            "cumin seeds",
+            "red onions",
+            "vegetable broth"
+          ]
+        },
+        {
+          "name": "Mulligatawny Soup",
+          "price": 850,
+          "description": "A traditional coconut milk-based soup with an authentic Sri Lankan curry flavor.",
+          "attributes": {
+            "dietary": {
+              "vegetarian": true,
+              "vegan": true
+            },
+            "spice_level": "medium"
+          },
+          "ingredients": [
+            "lentils",
+            "coconut milk",
+            "spices",
+            "turmeric",
+            "curry leaves"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sambols & Salads",
+      "items": [
+        {
+          "name": "Pol Sambol",
+          "price": 625,
+          "description": "Grated Coconut, Dry Chili, Onion, Tomato, Green Chili, Lime.",
+          "attributes": {
+            "dietary": {
+              "vegetarian": true,
+              "vegan": true
+            },
+            "spice_level": "medium"
+          },
+          "ingredients": [
+            "grated coconut",
+            "dry chili",
+            "onion",
+            "tomato",
+            "green chili",
+            "lime"
+          ]
+        },
+        {
+          "name": "Seeni Sambol",
+          "price": 690,
+          "description": "A sweet and spicy relish of caramelized onions, chili flakes, and tamarind.",
+          "attributes": {
+            "dietary": {
+              "vegetarian": true,
+              "vegan": true
+            },
+            "spice_level": "medium"
+          },
+          "ingredients": [
+            "onions",
+            "chili flakes",
+            "tamarind",
+            "sugar",
+            "curry leaves",
+            "cinnamon"
+          ]
+        },
+        {
+          "name": "Carrot Sambolaya",
+          "price": 775,
+          "description": "Grated Carrot, Coconut, Onion, Green Chili, Lime.",
+          "attributes": {
+            "dietary": {
+              "vegetarian": true,
+              "vegan": true
+            },
+            "spice_level": "mild"
+          },
+          "ingredients": [
+            "grated carrot",
+            "coconut",
+            "onion",
+            "green chili",
+            "lime"
+          ]
+        },
+        {
+          "name": "Mixed Salad",
+          "price": 775,
+          "description": "Cucumber, Tomato, Carrot, Onion, Green Chili, Lime.",
+          "attributes": {
+            "dietary": {
+              "vegetarian": true,
+              "vegan": true
+            },
+            "spice_level": "mild"
+          },
+          "ingredients": [
+            "cucumber",
+            "tomato",
+            "carrot",
+            "onion",
+            "green chili",
+            "lime"
+          ]
+        },
+        {
+          "name": "Papadam",
+          "price": 375,
+          "attributes": {
+            "dietary": {
+              "vegetarian": true,
+              "vegan": true
+            },
+            "spice_level": "mild"
+          },
+          "ingredients": [
+            "lentil flour",
+            "rice flour"
+          ]
+        }
+      ]
+    }
+  ]
+}

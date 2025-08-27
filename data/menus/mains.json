@@ -1,0 +1,343 @@
+{
+  "category": "Main courses",
+  "items": [
+    {
+      "name": "Fried Rice",
+      "options": [
+        {
+          "type": "Vegetable",
+          "price": 1150,
+          "attributes": {
+            "dietary": {
+              "vegetarian": true,
+              "vegan": true
+            },
+            "spice_level": "mild"
+          },
+          "ingredients": [
+            "basmati rice",
+            "carrots",
+            "leeks",
+            "cabbage",
+            "spring onions",
+            "soy sauce"
+          ]
+        },
+        {
+          "type": "Chicken",
+          "price": 1950,
+          "attributes": {
+            "dietary": {
+              "vegetarian": false,
+              "vegan": false,
+              "halal": true
+            },
+            "spice_level": "mild"
+          },
+          "ingredients": [
+            "basmati rice",
+            "chicken",
+            "egg",
+            "vegetables",
+            "soy sauce"
+          ]
+        },
+        {
+          "type": "Fish",
+          "price": 1950,
+          "attributes": {
+            "dietary": {
+              "vegetarian": false,
+              "vegan": false,
+              "halal": true
+            },
+            "spice_level": "mild"
+          },
+          "ingredients": [
+            "basmati rice",
+            "fish",
+            "egg",
+            "vegetables",
+            "soy sauce"
+          ]
+        },
+        {
+          "type": "Prawn",
+          "price": 2000,
+          "attributes": {
+            "dietary": {
+              "vegetarian": false,
+              "vegan": false,
+              "halal": true
+            },
+            "spice_level": "mild"
+          },
+          "ingredients": [
+            "basmati rice",
+            "prawns",
+            "egg",
+            "vegetables",
+            "soy sauce"
+          ]
+        },
+        {
+          "type": "Mutton",
+          "price": 2010,
+          "attributes": {
+            "dietary": {
+              "vegetarian": false,
+              "vegan": false,
+              "halal": true
+            },
+            "spice_level": "mild"
+          },
+          "ingredients": [
+            "basmati rice",
+            "mutton",
+            "egg",
+            "vegetables",
+            "soy sauce"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bamboo Biriyani",
+      "description": "Biriyani served in a steaming hot bamboo stalk with Raita, Homemade Chutney, and Mango Curry.",
+      "options": [
+        {
+          "type": "Vegetable",
+          "price": 1480,
+          "note": "with Paneer and Cashew curry",
+          "attributes": {
+            "dietary": {
+              "vegetarian": true,
+              "vegan": false
+            },
+            "spice_level": "medium"
+          },
+          "ingredients": [
+            "basmati rice",
+            "mixed vegetables",
+            "paneer",
+            "cashews",
+            "biriyani spices",
+            "mint",
+            "coriander"
+          ]
+        },
+        {
+          "type": "Chicken",
+          "price": 1950,
+          "attributes": {
+            "dietary": {
+              "vegetarian": false,
+              "vegan": false,
+              "halal": true
+            },
+            "spice_level": "medium"
+          },
+          "ingredients": [
+            "basmati rice",
+            "chicken",
+            "biriyani spices",
+            "mint",
+            "coriander",
+            "fried onions"
+          ]
+        },
+        {
+          "type": "Prawn",
+          "price": 2050,
+          "attributes": {
+            "dietary": {
+              "vegetarian": false,
+              "vegan": false,
+              "halal": true
+            },
+            "spice_level": "medium"
+          },
+          "ingredients": [
+            "basmati rice",
+            "prawns",
+            "biriyani spices",
+            "mint",
+            "coriander",
+            "fried onions"
+          ]
+        },
+        {
+          "type": "Seafood",
+          "price": 2250,
+          "attributes": {
+            "dietary": {
+              "vegetarian": false,
+              "vegan": false,
+              "halal": true
+            },
+            "spice_level": "medium"
+          },
+          "ingredients": [
+            "basmati rice",
+            "prawns",
+            "fish",
+            "biriyani spices",
+            "mint",
+            "coriander"
+          ]
+        },
+        {
+          "type": "Mutton",
+          "price": 2650,
+          "attributes": {
+            "dietary": {
+              "vegetarian": false,
+              "vegan": false,
+              "halal": true
+            },
+            "spice_level": "medium"
+          },
+          "ingredients": [
+            "basmati rice",
+            "mutton",
+            "biriyani spices",
+            "mint",
+            "coriander",
+            "fried onions"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chicken Lamprais",
+      "price": 1650,
+      "description": "A portion of savory rice with flavorful accompaniments, wrapped and baked in a banana leaf, from an age-old Dutch recipe.",
+      "attributes": {
+        "dietary": {
+          "vegetarian": false,
+          "vegan": false,
+          "halal": true
+        },
+        "spice_level": "medium"
+      },
+      "ingredients": [
+        "samba rice",
+        "chicken curry",
+        "seeni sambol",
+        "batu mojuwa",
+        "fish cutlet",
+        "boiled egg",
+        "banana leaf"
+      ]
+    },
+    {
+      "name": "Kottu",
+      "description": "Shredded godamba rotti stir-fried with vegetables, egg, and spices.",
+      "items": [
+        {
+          "name": "Vegetable Kottu",
+          "price": 1750,
+          "attributes": {
+            "dietary": {
+              "vegetarian": true,
+              "vegan": false,
+              "can_be_vegan": true
+            },
+            "spice_level": "medium"
+          },
+          "ingredients": [
+            "godamba rotti",
+            "carrots",
+            "leeks",
+            "cabbage",
+            "onions",
+            "egg (can be omitted for vegan)"
+          ]
+        },
+        {
+          "name": "Chicken Kottu",
+          "price": 2250,
+          "attributes": {
+            "dietary": {
+              "vegetarian": false,
+              "vegan": false,
+              "halal": true
+            },
+            "spice_level": "medium"
+          },
+          "ingredients": [
+            "godamba rotti",
+            "chicken",
+            "egg",
+            "vegetables",
+            "spices"
+          ]
+        },
+        {
+          "name": "Fish Kottu",
+          "price": 2350,
+          "attributes": {
+            "dietary": {
+              "vegetarian": false,
+              "vegan": false,
+              "halal": true
+            },
+            "spice_level": "medium"
+          },
+          "ingredients": [
+            "godamba rotti",
+            "fish",
+            "egg",
+            "vegetables",
+            "spices"
+          ]
+        },
+        {
+          "name": "Mutton Kottu",
+          "price": 2750,
+          "attributes": {
+            "dietary": {
+              "vegetarian": false,
+              "vegan": false,
+              "halal": true
+            },
+            "spice_level": "medium"
+          },
+          "ingredients": [
+            "godamba rotti",
+            "mutton",
+            "egg",
+            "vegetables",
+            "spices"
+          ]
+        },
+        {
+          "name": "Culture Special Chicken Cheese Kottu",
+          "price": 2750,
+          "description": "Our signature kottu soaked in a thick curry, topped with two types of cheese sauce.",
+          "attributes": {
+            "dietary": {
+              "vegetarian": false,
+              "vegan": false,
+              "halal": true
+            },
+            "spice_level": "medium"
+          },
+          "ingredients": [
+            "godamba rotti",
+            "chicken",
+            "egg",
+            "vegetables",
+            "cheese sauce"
+          ],
+          "addons": [
+            {
+              "name": "Extra Cheese",
+              "price": 580
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

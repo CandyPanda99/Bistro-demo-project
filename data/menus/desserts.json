@@ -1,0 +1,183 @@
+{
+  "category": "Desserts",
+  "items": [
+    {
+      "name": "Watalappam",
+      "price": 925,
+      "attributes": {
+        "dietary": {
+          "vegetarian": true,
+          "vegan": false
+        }
+      },
+      "ingredients": [
+        "coconut milk",
+        "jaggery",
+        "egg",
+        "cardamom",
+        "nutmeg",
+        "cashew nuts"
+      ]
+    },
+    {
+      "name": "Biscuit Pudding",
+      "price": 975,
+      "attributes": {
+        "dietary": {
+          "vegetarian": true,
+          "vegan": false
+        }
+      },
+      "ingredients": [
+        "marie biscuits",
+        "chocolate icing",
+        "milk",
+        "butter",
+        "cashew nuts"
+      ]
+    },
+    {
+      "name": "Curd and Treacle",
+      "price": 975,
+      "attributes": {
+        "dietary": {
+          "vegetarian": true,
+          "vegan": false
+        }
+      },
+      "ingredients": [
+        "buffalo milk curd",
+        "kithul treacle"
+      ]
+    },
+    {
+      "name": "Ice Cream",
+      "price": 975,
+      "options": [
+        "Vanilla",
+        "Chocolate",
+        "Strawberry"
+      ],
+      "attributes": {
+        "dietary": {
+          "vegetarian": true,
+          "vegan": false
+        }
+      },
+      "ingredients": [
+        "milk",
+        "sugar",
+        "cream",
+        "flavoring"
+      ]
+    },
+    {
+      "name": "Fruit Salad",
+      "price": 975,
+      "attributes": {
+        "dietary": {
+          "vegetarian": true,
+          "vegan": true
+        }
+      },
+      "ingredients": [
+        "papaya",
+        "watermelon",
+        "pineapple",
+        "banana",
+        "mango"
+      ]
+    },
+    {
+      "name": "Fruit Salad with Ice Cream",
+      "price": 1350,
+      "attributes": {
+        "dietary": {
+          "vegetarian": true,
+          "vegan": false
+        }
+      },
+      "ingredients": [
+        "seasonal fruits",
+        "vanilla ice cream"
+      ]
+    },
+    {
+      "name": "Honey Hopper",
+      "price": 650,
+      "attributes": {
+        "dietary": {
+          "vegetarian": true,
+          "vegan": false
+        }
+      },
+      "ingredients": [
+        "rice flour",
+        "coconut milk",
+        "egg",
+        "kithul treacle"
+      ]
+    },
+    {
+      "name": "Hopper Mousse",
+      "price": 950,
+      "attributes": {
+        "dietary": {
+          "vegetarian": true,
+          "vegan": false
+        }
+      },
+      "ingredients": [
+        "hopper batter base",
+        "chocolate mousse",
+        "cream"
+      ]
+    },
+    {
+      "name": "Kithul Curd Cake",
+      "price": 1550,
+      "attributes": {
+        "dietary": {
+          "vegetarian": true,
+          "vegan": false
+        }
+      },
+      "ingredients": [
+        "curd",
+        "kithul jaggery",
+        "flour",
+        "butter"
+      ]
+    },
+    {
+      "name": "Fruit Platter",
+      "price": 1550,
+      "attributes": {
+        "dietary": {
+          "vegetarian": true,
+          "vegan": true
+        }
+      },
+      "ingredients": [
+        "large assortment of seasonal tropical fruits"
+      ]
+    },
+    {
+      "name": "Sundae Fantasy",
+      "price": 1550,
+      "description": "3 scoops of ice cream topped with strawberry, mango syrup & chocolate chips.",
+      "attributes": {
+        "dietary": {
+          "vegetarian": true,
+          "vegan": false
+        }
+      },
+      "ingredients": [
+        "ice cream",
+        "strawberry syrup",
+        "mango syrup",
+        "chocolate chips"
+      ]
+    }
+  ]
+}

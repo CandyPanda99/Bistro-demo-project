@@ -1,0 +1,361 @@
+{
+  "category": "Beverages",
+  "subcategories": [
+    {
+      "name": "Fresh Juices & Shooters",
+      "items": [
+        {
+          "name": "Orange Dulce",
+          "price": 1500,
+          "attributes": {
+            "dietary": {
+              "vegetarian": true,
+              "vegan": true
+            }
+          },
+          "ingredients": [
+            "orange"
+          ]
+        },
+        {
+          "name": "Passion Fruit Dulce",
+          "price": 890,
+          "attributes": {
+            "dietary": {
+              "vegetarian": true,
+              "vegan": true
+            }
+          },
+          "ingredients": [
+            "passion fruit"
+          ]
+        },
+        {
+          "name": "Mixed Fruit Dulce",
+          "price": 825,
+          "attributes": {
+            "dietary": {
+              "vegetarian": true,
+              "vegan": true
+            }
+          },
+          "ingredients": [
+            "seasonal mixed fruits"
+          ]
+        },
+        {
+          "name": "Mango Dulce",
+          "price": 875,
+          "attributes": {
+            "dietary": {
+              "vegetarian": true,
+              "vegan": true
+            }
+          },
+          "ingredients": [
+            "mango"
+          ]
+        },
+        {
+          "name": "Pineapple Dulce",
+          "price": 875,
+          "attributes": {
+            "dietary": {
+              "vegetarian": true,
+              "vegan": true
+            }
+          },
+          "ingredients": [
+            "pineapple"
+          ]
+        },
+        {
+          "name": "Melon Dulce",
+          "price": 825,
+          "attributes": {
+            "dietary": {
+              "vegetarian": true,
+              "vegan": true
+            }
+          },
+          "ingredients": [
+            "watermelon"
+          ]
+        },
+        {
+          "name": "Papaya Dulce",
+          "price": 795,
+          "attributes": {
+            "dietary": {
+              "vegetarian": true,
+              "vegan": true
+            }
+          },
+          "ingredients": [
+            "papaya"
+          ]
+        },
+        {
+          "name": "Lime Dulce",
+          "price": 750,
+          "attributes": {
+            "dietary": {
+              "vegetarian": true,
+              "vegan": true
+            }
+          },
+          "ingredients": [
+            "lime"
+          ]
+        },
+        {
+          "name": "Tamarind Dulce",
+          "price": 850,
+          "attributes": {
+            "dietary": {
+              "vegetarian": true,
+              "vegan": true
+            }
+          },
+          "ingredients": [
+            "tamarind"
+          ]
+        },
+        {
+          "name": "Goraka Dulce",
+          "price": 850,
+          "description": "Packed with Health Benefits",
+          "attributes": {
+            "dietary": {
+              "vegetarian": true,
+              "vegan": true
+            }
+          },
+          "ingredients": [
+            "goraka (garcinia cambogia)"
+          ]
+        },
+        {
+          "name": "Lime & Mint",
+          "price": 875,
+          "attributes": {
+            "dietary": {
+              "vegetarian": true,
+              "vegan": true
+            }
+          },
+          "ingredients": [
+            "lime",
+            "mint"
+          ]
+        },
+        {
+          "name": "Passion Mint",
+          "price": 875,
+          "attributes": {
+            "dietary": {
+              "vegetarian": true,
+              "vegan": true
+            }
+          },
+          "ingredients": [
+            "passion fruit",
+            "mint"
+          ]
+        },
+        {
+          "name": "Lime Soda",
+          "price": 875,
+          "attributes": {
+            "dietary": {
+              "vegetarian": true,
+              "vegan": true
+            }
+          },
+          "ingredients": [
+            "lime",
+            "soda"
+          ]
+        },
+        {
+          "name": "Homemade Ginger Beer",
+          "price": 850,
+          "attributes": {
+            "dietary": {
+              "vegetarian": true,
+              "vegan": true
+            }
+          },
+          "ingredients": [
+            "ginger",
+            "soda",
+            "lime"
+          ]
+        },
+        {
+          "name": "King Coconut",
+          "price": 775,
+          "attributes": {
+            "dietary": {
+              "vegetarian": true,
+              "vegan": true
+            }
+          },
+          "ingredients": [
+            "king coconut water"
+          ]
+        },
+        {
+          "name": "King Coconut with Lime",
+          "price": 875,
+          "attributes": {
+            "dietary": {
+              "vegetarian": true,
+              "vegan": true
+            }
+          },
+          "ingredients": [
+            "king coconut water",
+            "lime"
+          ]
+        },
+        {
+          "name": "Trio of Homemade Shooter Platter",
+          "price": 850,
+          "description": "Before, During & After Meal Shots",
+          "attributes": {
+            "dietary": {
+              "vegetarian": true,
+              "vegan": true
+            }
+          },
+          "ingredients": [
+            "assorted fruit and herbal extracts"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Iced Teas, Coffees & Specialties",
+      "items": [
+        {
+          "name": "Cinnamon Iced Tea",
+          "price": 950,
+          "attributes": {
+            "dietary": {
+              "vegetarian": true,
+              "vegan": true
+            }
+          },
+          "ingredients": [
+            "black tea",
+            "cinnamon",
+            "sugar",
+            "lime"
+          ]
+        },
+        {
+          "name": "Lemon Iced Tea",
+          "price": 950,
+          "attributes": {
+            "dietary": {
+              "vegetarian": true,
+              "vegan": true
+            }
+          },
+          "ingredients": [
+            "black tea",
+            "lemon",
+            "sugar"
+          ]
+        },
+        {
+          "name": "Iced Coffee",
+          "price": 950,
+          "attributes": {
+            "dietary": {
+              "vegetarian": true,
+              "vegan": false
+            }
+          },
+          "ingredients": [
+            "coffee",
+            "milk",
+            "sugar",
+            "ice cream"
+          ]
+        },
+        {
+          "name": "Iced Milo",
+          "price": 1100,
+          "attributes": {
+            "dietary": {
+              "vegetarian": true,
+              "vegan": false
+            }
+          },
+          "ingredients": [
+            "milo powder",
+            "milk",
+            "sugar"
+          ]
+        },
+        {
+          "name": "Faluda",
+          "price": 950,
+          "attributes": {
+            "dietary": {
+              "vegetarian": true,
+              "vegan": false
+            }
+          },
+          "ingredients": [
+            "rose syrup",
+            "vermicelli",
+            "basil seeds",
+            "milk",
+            "ice cream"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Classic Soft Drinks",
+      "items": [
+        {
+          "name": "Coca Cola / Sprite / Fanta / Portello",
+          "price": 550
+        },
+        {
+          "name": "Coke Zero / Sprite Zero",
+          "price": 625
+        },
+        {
+          "name": "Soda",
+          "price": 550
+        }
+      ]
+    },
+    {
+      "name": "Water & Hot Beverages",
+      "items": [
+        {
+          "name": "Mineral Water (500ml)",
+          "price": 220
+        },
+        {
+          "name": "Mineral Water (1L)",
+          "price": 350
+        },
+        {
+          "name": "Tea Pot / Coffee Pot (Small)",
+          "price": 1100
+        },
+        {
+          "name": "Tea Pot / Coffee Pot (Large)",
+          "price": 1950
+        }
+      ]
+    }
+  ]
+}

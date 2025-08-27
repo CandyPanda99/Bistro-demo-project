@@ -7,13 +7,14 @@ from langgraph.constants import START
 from langgraph.graph import StateGraph
 from langgraph.prebuilt import tools_condition
 
-from constants.prompts import CUSTOMER_SUPPORT_AGENT_SYSTEM_PROMPT
+from constants.prompts import BISTRO_AGENT_SYSTEM_PROMPT
 from memory.mongodb_checkpointer import get_mongodb_checkpointer
 from models.chat_models.chat_openai import get_openai_chat
 from schemas.chat_request import ChatRequest
 from tools.ddg_search_tool import ddg_search
 from tools.information_tool import lookup_information
-from utils.Assistant import Assistant
+from tools.menu_agent_tool import menu_agent_tool
+
 from utils.State import State
 from utils.utils import create_tool_node_with_fallback
 
@@ -23,13 +24,14 @@ class ChatService:
         self.tools = [
             ddg_search,
             lookup_information,
+            menu_agent_tool
         ]
         self.llm = get_openai_chat()
         self.primary_assistant_prompt = ChatPromptTemplate.from_messages(
             [
                 (
                     "system",
-                    CUSTOMER_SUPPORT_AGENT_SYSTEM_PROMPT,
+                    BISTRO_AGENT_SYSTEM_PROMPT,
                 ),
                 ("placeholder", "{messages}"),
             ]
