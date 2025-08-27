@@ -16,3 +16,4 @@ langgraph~=0.6.2
 langchain-core~=0.3.75
 starlette~=0.47.2
 langchain-text-splitters~=0.3.9
+pydantic~=2.11.7

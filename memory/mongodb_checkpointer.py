@@ -1,7 +1,9 @@
 import os
 
+import certifi
 from dotenv import load_dotenv
 from pymongo import MongoClient, AsyncMongoClient
+from langgraph.checkpoint.mongodb import MongoDBSaver, AsyncMongoDBSaver
 
 load_dotenv()
 
@@ -15,7 +17,7 @@ def get_mongodb_checkpointer():
         checkpointer = MongoDBSaver(mongodb_client)
         graph = create_react_agent(model, tools=tools, checkpointer=checkpointer)
     """
-    return MongoClient(MONGODB_URI)
+    return MongoDBSaver(MongoClient(MONGODB_URI,tlsCAFile=certifi.where()))
 
 def get_mongodb_async_checkpointer():
     """
@@ -25,4 +27,4 @@ def get_mongodb_async_checkpointer():
         checkpointer = AsyncMongoDBSaver(async_mongodb_client)
         graph = create_react_agent(model, tools=tools, checkpointer=checkpointer)
     """
-    return AsyncMongoClient(MONGODB_URI)
+    return AsyncMongoDBSaver(AsyncMongoClient(MONGODB_URI,tlsCAFile=certifi.where()))

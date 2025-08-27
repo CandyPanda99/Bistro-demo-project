@@ -1,0 +1,231 @@
+{
+  "restaurant_name": "Bistro Culture",
+  "tagline": "A Culinary Journey Through Sri Lanka",
+  "disclaimer": "The ingredients and dietary attributes listed are based on standard recipes and are for general guidance only. Please consult with our staff for specific allergy concerns or dietary needs.",
+  "menu": [
+    {
+      "category": "Beverages",
+      "subcategories": [
+        {
+          "name": "Fresh Juices & Shooters",
+          "items": [
+            { "name": "Orange Dulce", "price": 1500, "attributes": {"dietary": {"vegetarian": true, "vegan": true}}, "ingredients": ["orange"] },
+            { "name": "Passion Fruit Dulce", "price": 890, "attributes": {"dietary": {"vegetarian": true, "vegan": true}}, "ingredients": ["passion fruit"] },
+            { "name": "Mixed Fruit Dulce", "price": 825, "attributes": {"dietary": {"vegetarian": true, "vegan": true}}, "ingredients": ["seasonal mixed fruits"] },
+            { "name": "Mango Dulce", "price": 875, "attributes": {"dietary": {"vegetarian": true, "vegan": true}}, "ingredients": ["mango"] },
+            { "name": "Pineapple Dulce", "price": 875, "attributes": {"dietary": {"vegetarian": true, "vegan": true}}, "ingredients": ["pineapple"] },
+            { "name": "Melon Dulce", "price": 825, "attributes": {"dietary": {"vegetarian": true, "vegan": true}}, "ingredients": ["watermelon"] },
+            { "name": "Papaya Dulce", "price": 795, "attributes": {"dietary": {"vegetarian": true, "vegan": true}}, "ingredients": ["papaya"] },
+            { "name": "Lime Dulce", "price": 750, "attributes": {"dietary": {"vegetarian": true, "vegan": true}}, "ingredients": ["lime"] },
+            { "name": "Tamarind Dulce", "price": 850, "attributes": {"dietary": {"vegetarian": true, "vegan": true}}, "ingredients": ["tamarind"] },
+            { "name": "Goraka Dulce", "price": 850, "description": "Packed with Health Benefits", "attributes": {"dietary": {"vegetarian": true, "vegan": true}}, "ingredients": ["goraka (garcinia cambogia)"] },
+            { "name": "Lime & Mint", "price": 875, "attributes": {"dietary": {"vegetarian": true, "vegan": true}}, "ingredients": ["lime", "mint"] },
+            { "name": "Passion Mint", "price": 875, "attributes": {"dietary": {"vegetarian": true, "vegan": true}}, "ingredients": ["passion fruit", "mint"] },
+            { "name": "Lime Soda", "price": 875, "attributes": {"dietary": {"vegetarian": true, "vegan": true}}, "ingredients": ["lime", "soda"] },
+            { "name": "Homemade Ginger Beer", "price": 850, "attributes": {"dietary": {"vegetarian": true, "vegan": true}}, "ingredients": ["ginger", "soda", "lime"] },
+            { "name": "King Coconut", "price": 775, "attributes": {"dietary": {"vegetarian": true, "vegan": true}}, "ingredients": ["king coconut water"] },
+            { "name": "King Coconut with Lime", "price": 875, "attributes": {"dietary": {"vegetarian": true, "vegan": true}}, "ingredients": ["king coconut water", "lime"] },
+            { "name": "Trio of Homemade Shooter Platter", "price": 850, "description": "Before, During & After Meal Shots", "attributes": {"dietary": {"vegetarian": true, "vegan": true}}, "ingredients": ["assorted fruit and herbal extracts"] }
+          ]
+        },
+        {
+          "name": "Iced Teas, Coffees & Specialties",
+          "items": [
+            { "name": "Cinnamon Iced Tea", "price": 950, "attributes": {"dietary": {"vegetarian": true, "vegan": true}}, "ingredients": ["black tea", "cinnamon", "sugar", "lime"] },
+            { "name": "Lemon Iced Tea", "price": 950, "attributes": {"dietary": {"vegetarian": true, "vegan": true}}, "ingredients": ["black tea", "lemon", "sugar"] },
+            { "name": "Iced Coffee", "price": 950, "attributes": {"dietary": {"vegetarian": true, "vegan": false}}, "ingredients": ["coffee", "milk", "sugar", "ice cream"] },
+            { "name": "Iced Milo", "price": 1100, "attributes": {"dietary": {"vegetarian": true, "vegan": false}}, "ingredients": ["milo powder", "milk", "sugar"] },
+            { "name": "Faluda", "price": 950, "attributes": {"dietary": {"vegetarian": true, "vegan": false}}, "ingredients": ["rose syrup", "vermicelli", "basil seeds", "milk", "ice cream"] }
+          ]
+        },
+        {
+          "name": "Classic Soft Drinks",
+          "items": [
+            { "name": "Coca Cola / Sprite / Fanta / Portello", "price": 550 },
+            { "name": "Coke Zero / Sprite Zero", "price": 625 },
+            { "name": "Soda", "price": 550 }
+          ]
+        },
+        {
+          "name": "Water & Hot Beverages",
+          "items": [
+            { "name": "Mineral Water (500ml)", "price": 220 },
+            { "name": "Mineral Water (1L)", "price": 350 },
+            { "name": "Tea Pot / Coffee Pot (Small)", "price": 1100 },
+            { "name": "Tea Pot / Coffee Pot (Large)", "price": 1950 }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Appetizers & Soups",
+      "subcategories": [
+        {
+          "name": "Soups",
+          "items": [
+            { "name": "Sweet Corn Chicken Soup", "price": 1050, "description": "Sweet corn kernels in a flavorful chicken broth with egg drop.", "attributes": {"dietary": {"vegetarian": false, "vegan": false, "halal": true}, "spice_level": "mild"}, "ingredients": ["chicken", "sweet corn", "chicken broth", "egg"] },
+            { "name": "Roasted Fish Soup", "price": 1050, "description": "A hearty soup with roasted fish, cumin seeds, and red onions.", "attributes": {"dietary": {"vegetarian": false, "vegan": false, "halal": true}, "spice_level": "mild"}, "ingredients": ["fish", "cumin seeds", "red onions", "vegetable broth"] },
+            { "name": "Mulligatawny Soup", "price": 850, "description": "A traditional coconut milk-based soup with an authentic Sri Lankan curry flavor.", "attributes": {"dietary": {"vegetarian": true, "vegan": true}, "spice_level": "medium"}, "ingredients": ["lentils", "coconut milk", "spices", "turmeric", "curry leaves"] }
+          ]
+        },
+        {
+          "name": "Sambols & Salads",
+          "items": [
+            { "name": "Pol Sambol", "price": 625, "description": "Grated Coconut, Dry Chili, Onion, Tomato, Green Chili, Lime.", "attributes": {"dietary": {"vegetarian": true, "vegan": true}, "spice_level": "medium"}, "ingredients": ["grated coconut", "dry chili", "onion", "tomato", "green chili", "lime"] },
+            { "name": "Seeni Sambol", "price": 690, "description": "A sweet and spicy relish of caramelized onions, chili flakes, and tamarind.", "attributes": {"dietary": {"vegetarian": true, "vegan": true}, "spice_level": "medium"}, "ingredients": ["onions", "chili flakes", "tamarind", "sugar", "curry leaves", "cinnamon"] },
+            { "name": "Carrot Sambolaya", "price": 775, "description": "Grated Carrot, Coconut, Onion, Green Chili, Lime.", "attributes": {"dietary": {"vegetarian": true, "vegan": true}, "spice_level": "mild"}, "ingredients": ["grated carrot", "coconut", "onion", "green chili", "lime"] },
+            { "name": "Mixed Salad", "price": 775, "description": "Cucumber, Tomato, Carrot, Onion, Green Chili, Lime.", "attributes": {"dietary": {"vegetarian": true, "vegan": true}, "spice_level": "mild"}, "ingredients": ["cucumber", "tomato", "carrot", "onion", "green chili", "lime"] },
+            { "name": "Papadam", "price": 375, "attributes": {"dietary": {"vegetarian": true, "vegan": true}, "spice_level": "mild"}, "ingredients": ["lentil flour", "rice flour"] }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Main Curries",
+      "note": "All curry dishes serve 1-2 people",
+      "subcategories": [
+        {
+          "name": "Chicken",
+          "items": [
+            { "name": "Kukulmas Yapanaya Kramayata (Jaffna Style)", "price": 1650, "description": "Chicken slow-cooked in a blend of roasted spices unique to Sri Lanka's Northern province.", "attributes": {"dietary": {"vegetarian": false, "vegan": false, "halal": true}, "spice_level": "spicy"}, "ingredients": ["chicken", "jaffna curry powder", "coconut milk", "onion", "curry leaves"] },
+            { "name": "Kukulmas Kaluwata Uyala (Black Curry)", "price": 1650, "description": "A traditional Sri Lankan black curry made with roasted spices, giving it a deep, rich flavor.", "attributes": {"dietary": {"vegetarian": false, "vegan": false, "halal": true}, "spice_level": "medium"}, "ingredients": ["chicken", "roasted curry powder", "black pepper", "coconut milk", "goraka"] },
+            { "name": "Kukulmas Thamparadu (Tempered)", "price": 1850, "description": "Marinated fried chicken sautéed with onions, tomatoes, and capsicum.", "attributes": {"dietary": {"vegetarian": false, "vegan": false, "halal": true}, "spice_level": "medium"}, "ingredients": ["chicken", "onions", "tomatoes", "capsicum", "chili flakes"] },
+            { "name": "Chicken Meatball Curry / Devilled", "price": 1550, "description": "A local household favorite. Chicken meatballs cooked in a coconut-based curry or a spicy devilled sauce.", "attributes": {"dietary": {"vegetarian": false, "vegan": false, "halal": true}, "spice_level": "medium-spicy"}, "ingredients": ["minced chicken", "spices", "coconut milk", "onions", "tomatoes"] },
+            { "name": "Hot Butter Chicken", "price": 2150, "description": "Crispy fried chicken tossed in a spicy, buttery sauce with bell peppers and onions.", "attributes": {"dietary": {"vegetarian": false, "vegan": false, "halal": true}, "spice_level": "medium"}, "ingredients": ["chicken", "butter", "bell peppers", "onions", "chili paste", "flour"] }
+          ]
+        },
+        {
+          "name": "Mutton",
+          "items": [
+            { "name": "Elu Mas Masala", "price": 2990, "description": "Mutton cooked in a rich masala of Indian spices, finished with coriander and lime.", "attributes": {"dietary": {"vegetarian": false, "vegan": false, "halal": true}, "spice_level": "medium"}, "ingredients": ["mutton", "garam masala", "ginger", "garlic", "coriander", "lime"] },
+            { "name": "Elu Mas Yapanaya Kramayata (Jaffna Style)", "price": 2990, "description": "Mutton marinated and slow-cooked using a recipe unique to the Northern Province.", "attributes": {"dietary": {"vegetarian": false, "vegan": false, "halal": true}, "spice_level": "spicy"}, "ingredients": ["mutton", "jaffna curry powder", "coconut milk", "sesame oil"] },
+            { "name": "Elu Mas Thamparadu (Boneless)", "price": 2990, "description": "Marinated boneless mutton sautéed to perfection with onions & capsicum.", "attributes": {"dietary": {"vegetarian": false, "vegan": false, "halal": true}, "spice_level": "medium"}, "ingredients": ["mutton", "onions", "capsicum", "black pepper"] },
+            { "name": "Elu Mas Devilled (Boneless)", "price": 3250, "description": "Boneless mutton sautéed in our chef's special mixture of spicy sauces.", "attributes": {"dietary": {"vegetarian": false, "vegan": false, "halal": true}, "spice_level": "spicy"}, "ingredients": ["mutton", "onions", "banana peppers", "tomato sauce", "chili sauce"] },
+            { "name": "Elu Mas Stew", "price": 3250, "description": "A mild mutton stew with farm-fresh vegetables in a mustard-flavored coconut milk sauce.", "attributes": {"dietary": {"vegetarian": false, "vegan": false, "halal": true}, "spice_level": "mild"}, "ingredients": ["mutton", "potatoes", "carrots", "coconut milk", "mustard cream", "turmeric"] }
+          ]
+        },
+        {
+          "name": "Fish",
+          "items": [
+            { "name": "Maalu Mirisata (Spicy Red Curry)", "price": 1995, "description": "A fiery fish curry cooked with fresh, hot spices from the heart of Ceylon.", "attributes": {"dietary": {"vegetarian": false, "vegan": false, "halal": true}, "spice_level": "spicy"}, "ingredients": ["seer fish", "red chili powder", "tamarind", "coconut milk", "curry leaves"] },
+            { "name": "Maalu Ambulthiyal", "price": 1995, "description": "A unique Sri Lankan dry fish curry, marinated in a tangy and peppery sauce.", "attributes": {"dietary": {"vegetarian": false, "vegan": false, "halal": true}, "spice_level": "medium"}, "ingredients": ["tuna fish", "goraka", "black pepper", "chili"] },
+            { "name": "Maalu Themparadu (Tempered)", "price": 1995, "description": "Marinated fried fish sautéed with onions and capsicum.", "attributes": {"dietary": {"vegetarian": false, "vegan": false, "halal": true}, "spice_level": "medium"}, "ingredients": ["seer fish", "onions", "capsicum", "turmeric"] },
+            { "name": "Maalu Devilled", "price": 1995, "description": "Fried fish sautéed with the Chef’s special mixture of sweet and spicy sauces.", "attributes": {"dietary": {"vegetarian": false, "vegan": false, "halal": true}, "spice_level": "spicy"}, "ingredients": ["seer fish", "onions", "bell peppers", "tomato sauce", "chili sauce"] },
+            { "name": "Maalu Stew", "price": 2150, "description": "Fish cooked in a mustard-flavored sauce with Ceylon spices and farm-fresh vegetables.", "attributes": {"dietary": {"vegetarian": false, "vegan": false, "halal": true}, "spice_level": "mild"}, "ingredients": ["seer fish", "potatoes", "carrots", "coconut milk", "mustard cream"] },
+            { "name": "Maalu Suduwata (White Curry)", "price": 2250, "description": "A mild fish curry cooked with coconut milk, turmeric, and a hint of mustard cream.", "attributes": {"dietary": {"vegetarian": false, "vegan": false, "halal": true}, "spice_level": "mild"}, "ingredients": ["seer fish", "coconut milk", "turmeric", "onion", "green chili"] },
+            { "name": "Fried Seer Fish", "price": 2350, "description": "Seer fish coated with breadcrumbs and fried to perfection with a hint of salt & pepper.", "attributes": {"dietary": {"vegetarian": false, "vegan": false, "halal": true}, "spice_level": "mild"}, "ingredients": ["seer fish", "breadcrumbs", "salt", "pepper"] }
+          ]
+        },
+        {
+          "name": "Prawns",
+          "items": [
+            { "name": "Isso Yapanaya Kramayata (Jaffna Style)", "price": 1975, "description": "Fresh prawns cooked using authentic roasted Jaffna spices.", "attributes": {"dietary": {"vegetarian": false, "vegan": false, "halal": true}, "spice_level": "spicy"}, "ingredients": ["prawns", "jaffna curry powder", "coconut milk", "tamarind"] },
+            { "name": "Isso Devilled", "price": 2200, "description": "Fried prawns sautéed with our chef’s special mixture of sauces and Ceylon spices.", "attributes": {"dietary": {"vegetarian": false, "vegan": false, "halal": true}, "spice_level": "spicy"}, "ingredients": ["prawns", "onions", "banana peppers", "tomato sauce", "chili sauce"] },
+            { "name": "Isso Themparadu (Tempered)", "price": 2250, "description": "Fried prawns sautéed with onions and capsicum.", "attributes": {"dietary": {"vegetarian": false, "vegan": false, "halal": true}, "spice_level": "medium"}, "ingredients": ["prawns", "onions", "capsicum", "turmeric", "chili flakes"] },
+            { "name": "Isso Stew", "price": 2250, "description": "Fresh prawns cooked in a mild mustard-flavored sauce with Ceylon spices and vegetables.", "attributes": {"dietary": {"vegetarian": false, "vegan": false, "halal": true}, "spice_level": "mild"}, "ingredients": ["prawns", "vegetables", "coconut milk", "mustard cream"] },
+            { "name": "Hot Butter Isso", "price": 2450, "description": "Our signature butter-fried prawns tossed in a special blend of spices.", "attributes": {"dietary": {"vegetarian": false, "vegan": false, "halal": true}, "spice_level": "medium"}, "ingredients": ["prawns", "butter", "chili paste", "curry leaves", "spring onions"] }
+          ]
+        },
+        {
+          "name": "Cuttlefish",
+          "items": [
+            { "name": "Dallo Rathata, Sarata (Spicy Red Curry)", "price": 1875, "description": "Fresh cuttlefish cooked in a spicy, blended red curry sauce.", "attributes": {"dietary": {"vegetarian": false, "vegan": false, "halal": true}, "spice_level": "spicy"}, "ingredients": ["cuttlefish", "red chili powder", "tamarind", "coconut milk"] },
+            { "name": "Dallo Devilled", "price": 1850, "description": "Fried cuttlefish sautéed with the chef’s special mixture of sweet and spicy sauces.", "attributes": {"dietary": {"vegetarian": false, "vegan": false, "halal": true}, "spice_level": "spicy"}, "ingredients": ["cuttlefish", "onions", "bell peppers", "tomato sauce", "chili sauce"] },
+            { "name": "Hot Butter Cuttlefish", "price": 1990, "description": "Crispy, butter-fried cuttlefish mixed with a special blend of spices.", "attributes": {"dietary": {"vegetarian": false, "vegan": false, "halal": true}, "spice_level": "medium"}, "ingredients": ["cuttlefish", "butter", "flour", "chili paste", "spring onions"] }
+          ]
+        },
+        {
+          "name": "Crab",
+          "items": [
+            { "name": "Kakulwo Negombo Kramayata", "price": 2250, "description": "Fresh crab slow-cooked according to a unique recipe from a coastal household in Negombo.", "attributes": {"dietary": {"vegetarian": false, "vegan": false, "halal": true}, "spice_level": "spicy"}, "ingredients": ["crab", "coconut milk", "red chili", "curry leaves", "moringa leaves"] },
+            { "name": "Lankan Chilli Kakulwo", "price": 1995, "description": "A local rendition of the world-famous Singapore chili crab.", "attributes": {"dietary": {"vegetarian": false, "vegan": false, "halal": true}, "spice_level": "spicy"}, "ingredients": ["crab", "chili sauce", "tomato sauce", "ginger", "garlic", "egg"] },
+            { "name": "Crab Tempered Dry Curry", "price": 1950, "description": "Marinated crab sautéed with onions, capsicum, and spices.", "attributes": {"dietary": {"vegetarian": false, "vegan": false, "halal": true}, "spice_level": "medium"}, "ingredients": ["crab", "onions", "capsicum", "black pepper", "turmeric"] }
+          ]
+        },
+        {
+          "name": "Vegetarian",
+          "items": [
+            { "name": "Dhal Curry", "price": 780, "attributes": {"dietary": {"vegetarian": true, "vegan": true}, "spice_level": "mild"}, "ingredients": ["red lentils", "coconut milk", "turmeric", "curry leaves"] },
+            { "name": "Soya Curry / Devilled", "price": 720, "attributes": {"dietary": {"vegetarian": true, "vegan": true}, "spice_level": "medium-spicy"}, "ingredients": ["soya chunks", "spices", "coconut milk", "onions", "tomatoes"] },
+            { "name": "Batu Mojuwa (Eggplant)", "price": 825, "attributes": {"dietary": {"vegetarian": true, "vegan": true}, "spice_level": "medium"}, "ingredients": ["eggplant", "vinegar", "sugar", "onions", "mustard"] },
+            { "name": "Tempered Potato / Curry", "price": 850, "attributes": {"dietary": {"vegetarian": true, "vegan": true}, "spice_level": "medium"}, "ingredients": ["potatoes", "onions", "chili flakes", "turmeric"] },
+            { "name": "Beetroot Curry", "price": 850, "attributes": {"dietary": {"vegetarian": true, "vegan": true}, "spice_level": "mild"}, "ingredients": ["beetroot", "coconut milk", "cinnamon", "curry leaves"] },
+            { "name": "Beans Curry", "price": 850, "attributes": {"dietary": {"vegetarian": true, "vegan": true}, "spice_level": "mild"}, "ingredients": ["green beans", "coconut milk", "turmeric", "onions"] },
+            { "name": "Mango Curry", "price": 925, "attributes": {"dietary": {"vegetarian": true, "vegan": true}, "spice_level": "medium"}, "ingredients": ["unripe mango", "coconut milk", "mustard seeds", "chili powder"] },
+            { "name": "Pumpkin Curry", "price": 950, "attributes": {"dietary": {"vegetarian": true, "vegan": true}, "spice_level": "mild"}, "ingredients": ["pumpkin", "coconut milk", "cinnamon", "mustard seeds"] },
+            { "name": "Garlic Curry", "price": 950, "attributes": {"dietary": {"vegetarian": true, "vegan": true}, "spice_level": "medium"}, "ingredients": ["garlic cloves", "coconut milk", "fenugreek", "turmeric"] },
+            { "name": "Tempered Pineapple", "price": 950, "attributes": {"dietary": {"vegetarian": true, "vegan": true}, "spice_level": "medium"}, "ingredients": ["pineapple", "chili flakes", "mustard seeds", "onions"] },
+            { "name": "Polos Curry (Young Jackfruit)", "price": 1100, "attributes": {"dietary": {"vegetarian": true, "vegan": true}, "spice_level": "medium"}, "ingredients": ["young jackfruit", "roasted curry powder", "coconut milk", "cinnamon"] },
+            { "name": "Kaju Maluwa (Cashew Curry)", "price": 1750, "attributes": {"dietary": {"vegetarian": true, "vegan": true}, "spice_level": "mild"}, "ingredients": ["cashew nuts", "coconut milk", "turmeric", "curry leaves", "pandan leaves"] },
+            { "name": "Stuffed Capsicum (1 pc)", "price": 650, "attributes": {"dietary": {"vegetarian": true, "vegan": false}, "spice_level": "mild"}, "ingredients": ["capsicum", "mixed vegetables", "potato", "paneer"] }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Rice, Biriyani & Lamprais",
+      "items": [
+        {
+          "name": "Fried Rice",
+          "options": [
+            { "type": "Vegetable", "price": 1150, "attributes": {"dietary": {"vegetarian": true, "vegan": true}, "spice_level": "mild"}, "ingredients": ["basmati rice", "carrots", "leeks", "cabbage", "spring onions", "soy sauce"] },
+            { "type": "Chicken", "price": 1950, "attributes": {"dietary": {"vegetarian": false, "vegan": false, "halal": true}, "spice_level": "mild"}, "ingredients": ["basmati rice", "chicken", "egg", "vegetables", "soy sauce"] },
+            { "type": "Fish", "price": 1950, "attributes": {"dietary": {"vegetarian": false, "vegan": false, "halal": true}, "spice_level": "mild"}, "ingredients": ["basmati rice", "fish", "egg", "vegetables", "soy sauce"] },
+            { "type": "Prawn", "price": 2000, "attributes": {"dietary": {"vegetarian": false, "vegan": false, "halal": true}, "spice_level": "mild"}, "ingredients": ["basmati rice", "prawns", "egg", "vegetables", "soy sauce"] },
+            { "type": "Mutton", "price": 2010, "attributes": {"dietary": {"vegetarian": false, "vegan": false, "halal": true}, "spice_level": "mild"}, "ingredients": ["basmati rice", "mutton", "egg", "vegetables", "soy sauce"] }
+          ]
+        },
+        {
+          "name": "Bamboo Biriyani",
+          "description": "Biriyani served in a steaming hot bamboo stalk with Raita, Homemade Chutney, and Mango Curry.",
+          "options": [
+            { "type": "Vegetable", "price": 1480, "note": "with Paneer and Cashew curry", "attributes": {"dietary": {"vegetarian": true, "vegan": false}, "spice_level": "medium"}, "ingredients": ["basmati rice", "mixed vegetables", "paneer", "cashews", "biriyani spices", "mint", "coriander"] },
+            { "type": "Chicken", "price": 1950, "attributes": {"dietary": {"vegetarian": false, "vegan": false, "halal": true}, "spice_level": "medium"}, "ingredients": ["basmati rice", "chicken", "biriyani spices", "mint", "coriander", "fried onions"] },
+            { "type": "Prawn", "price": 2050, "attributes": {"dietary": {"vegetarian": false, "vegan": false, "halal": true}, "spice_level": "medium"}, "ingredients": ["basmati rice", "prawns", "biriyani spices", "mint", "coriander", "fried onions"] },
+            { "type": "Seafood", "price": 2250, "attributes": {"dietary": {"vegetarian": false, "vegan": false, "halal": true}, "spice_level": "medium"}, "ingredients": ["basmati rice", "prawns", "fish", "biriyani spices", "mint", "coriander"] },
+            { "type": "Mutton", "price": 2650, "attributes": {"dietary": {"vegetarian": false, "vegan": false, "halal": true}, "spice_level": "medium"}, "ingredients": ["basmati rice", "mutton", "biriyani spices", "mint", "coriander", "fried onions"] }
+          ]
+        },
+        {
+          "name": "Chicken Lamprais",
+          "price": 1650,
+          "description": "A portion of savory rice with flavorful accompaniments, wrapped and baked in a banana leaf, from an age-old Dutch recipe.",
+          "attributes": {"dietary": {"vegetarian": false, "vegan": false, "halal": true}, "spice_level": "medium"},
+          "ingredients": ["samba rice", "chicken curry", "seeni sambol", "batu mojuwa", "fish cutlet", "boiled egg", "banana leaf"]
+        }
+      ]
+    },
+    {
+      "category": "Traditional Meals & Kottu",
+      "subcategories": [
+        {
+          "name": "Kottu",
+          "description": "Shredded godamba rotti stir-fried with vegetables, egg, and spices.",
+          "items": [
+            { "name": "Vegetable Kottu", "price": 1750, "attributes": {"dietary": {"vegetarian": true, "vegan": false, "can_be_vegan": true}, "spice_level": "medium"}, "ingredients": ["godamba rotti", "carrots", "leeks", "cabbage", "onions", "egg (can be omitted for vegan)"] },
+            { "name": "Chicken Kottu", "price": 2250, "attributes": {"dietary": {"vegetarian": false, "vegan": false, "halal": true}, "spice_level": "medium"}, "ingredients": ["godamba rotti", "chicken", "egg", "vegetables", "spices"] },
+            { "name": "Fish Kottu", "price": 2350, "attributes": {"dietary": {"vegetarian": false, "vegan": false, "halal": true}, "spice_level": "medium"}, "ingredients": ["godamba rotti", "fish", "egg", "vegetables", "spices"] },
+            { "name": "Mutton Kottu", "price": 2750, "attributes": {"dietary": {"vegetarian": false, "vegan": false, "halal": true}, "spice_level": "medium"}, "ingredients": ["godamba rotti", "mutton", "egg", "vegetables", "spices"] },
+            { "name": "Culture Special Chicken Cheese Kottu", "price": 2750, "description": "Our signature kottu soaked in a thick curry, topped with two types of cheese sauce.", "attributes": {"dietary": {"vegetarian": false, "vegan": false, "halal": true}, "spice_level": "medium"}, "ingredients": ["godamba rotti", "chicken", "egg", "vegetables", "cheese sauce"], "addons": [{ "name": "Extra Cheese", "price": 580 }] }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Desserts",
+      "items": [
+        { "name": "Watalappam", "price": 925, "attributes": {"dietary": {"vegetarian": true, "vegan": false}}, "ingredients": ["coconut milk", "jaggery", "egg", "cardamom", "nutmeg", "cashew nuts"] },
+        { "name": "Biscuit Pudding", "price": 975, "attributes": {"dietary": {"vegetarian": true, "vegan": false}}, "ingredients": ["marie biscuits", "chocolate icing", "milk", "butter", "cashew nuts"] },
+        { "name": "Curd and Treacle", "price": 975, "attributes": {"dietary": {"vegetarian": true, "vegan": false}}, "ingredients": ["buffalo milk curd", "kithul treacle"] },
+        { "name": "Ice Cream", "price": 975, "options": ["Vanilla", "Chocolate", "Strawberry"], "attributes": {"dietary": {"vegetarian": true, "vegan": false}}, "ingredients": ["milk", "sugar", "cream", "flavoring"] },
+        { "name": "Fruit Salad", "price": 975, "attributes": {"dietary": {"vegetarian": true, "vegan": true}}, "ingredients": ["papaya", "watermelon", "pineapple", "banana", "mango"] },
+        { "name": "Fruit Salad with Ice Cream", "price": 1350, "attributes": {"dietary": {"vegetarian": true, "vegan": false}}, "ingredients": ["seasonal fruits", "vanilla ice cream"] },
+        { "name": "Honey Hopper", "price": 650, "attributes": {"dietary": {"vegetarian": true, "vegan": false}}, "ingredients": ["rice flour", "coconut milk", "egg", "kithul treacle"] },
+        { "name": "Hopper Mousse", "price": 950, "attributes": {"dietary": {"vegetarian": true, "vegan": false}}, "ingredients": ["hopper batter base", "chocolate mousse", "cream"] },
+        { "name": "Kithul Curd Cake", "price": 1550, "attributes": {"dietary": {"vegetarian": true, "vegan": false}}, "ingredients": ["curd", "kithul jaggery", "flour", "butter"] },
+        { "name": "Fruit Platter", "price": 1550, "attributes": {"dietary": {"vegetarian": true, "vegan": true}}, "ingredients": ["large assortment of seasonal tropical fruits"] },
+        { "name": "Sundae Fantasy", "price": 1550, "description": "3 scoops of ice cream topped with strawberry, mango syrup & chocolate chips.", "attributes": {"dietary": {"vegetarian": true, "vegan": false}}, "ingredients": ["ice cream", "strawberry syrup", "mango syrup", "chocolate chips"] }
+      ]
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from starlette.responses import JSONResponse
 
-from routers import documents
+from routers import documents, chat_router
 
 app = FastAPI(
     title="Bistro AI Assistant",
@@ -10,6 +10,7 @@ app = FastAPI(
 )
 
 app.include_router(documents.router, prefix="/documents")
+app.include_router(chat_router.router, prefix="/agent")
 
 @app.get(path="/health", tags=["health"])
 async def root():
