@@ -4,10 +4,11 @@ from langchain_core.prompts import ChatPromptTemplate
 
 from constants.prompts import BISTRO_AGENT_SYSTEM_PROMPT
 from models.chat_models.chat_openai import get_openai_chat
+from tools.complaint_tool import complaint_tool
 from tools.ddg_search_tool import ddg_search
 from tools.information_tool import lookup_information
 from tools.menu_agent_tool import menu_agent_tool
-from tools.resservation_tool import reservation_tool
+from tools.reservation_tool import reservation_tool
 
 llm = get_openai_chat()
 
@@ -15,7 +16,8 @@ tools = [
     ddg_search,
     lookup_information,
     menu_agent_tool,
-    reservation_tool
+    reservation_tool,
+    complaint_tool
 ]
 
 prompt = ChatPromptTemplate.from_messages(

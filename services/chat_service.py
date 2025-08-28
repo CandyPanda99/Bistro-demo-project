@@ -9,7 +9,8 @@ from schemas.chat_request import ChatRequest
 from tools.ddg_search_tool import ddg_search
 from tools.information_tool import lookup_information
 from tools.menu_agent_tool import menu_agent_tool
-from tools.resservation_tool import reservation_tool
+from tools.reservation_tool import reservation_tool
+from tools.complaint_tool import complaint_tool
 from utils.Assistant import Assistant
 
 from utils.State import State
@@ -22,7 +23,8 @@ class ChatService:
             ddg_search,
             lookup_information,
             menu_agent_tool,
-            reservation_tool
+            reservation_tool,
+            complaint_tool
         ]
         self.assistant_runnable = bistro_assistant_runnable
         self.agent_graph = self._build_graph()
