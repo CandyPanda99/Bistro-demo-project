@@ -1,3 +1,5 @@
+from typing import AsyncGenerator
+
 from langchain_core.messages import AIMessage
 from langgraph.constants import START
 from langgraph.graph import StateGraph
@@ -60,3 +62,21 @@ class ChatService:
             return final_response.content
         else:
             return "An error occurred, and no final response was generated."
+
+    async def generate_streaming_response(self, request: ChatRequest) -> AsyncGenerator[str, None]:
+        config = {
+            "configurable": {
+                "thread_id": request.session_id,
+            }
+        }
+
+        async for event in self.agent_graph.astream_events(
+            {"messages": ("user", request.query)},
+            config=config,
+            version="v1"
+        ):
+            kind = event["event"]
+            if kind == "on_chat_model_stream":
+                content = event["data"]["chunk"].content
+                if content:
+                    yield content
