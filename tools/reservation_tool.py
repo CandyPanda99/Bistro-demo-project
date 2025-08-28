@@ -11,4 +11,4 @@ def reservation_tool(reservation: Reservation) -> str:
     :return: The response from the menu agent.
     """
     print(reservation)
-    return f"Reservation confirmed for {reservation.name} on {reservation.date} at {reservation.time} for {reservation.party_size} people. Contact: {reservation.contact_info}."
+    return f"Reservation confirmed for {reservation.name}"

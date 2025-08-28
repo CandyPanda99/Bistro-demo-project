@@ -1,6 +1,6 @@
 from datetime import datetime
 
-from langchain_core.prompts import ChatPromptTemplate
+from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 
 from constants.prompts import BISTRO_AGENT_SYSTEM_PROMPT
 from models.chat_models.chat_openai import get_openai_chat
@@ -26,7 +26,7 @@ prompt = ChatPromptTemplate.from_messages(
             "system",
             BISTRO_AGENT_SYSTEM_PROMPT,
         ),
-        ("placeholder", "{messages}"),
+        MessagesPlaceholder(variable_name="messages"),
     ]
 ).partial(time=datetime.now)
 
