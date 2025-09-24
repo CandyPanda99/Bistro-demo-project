@@ -2,7 +2,7 @@ import langchain
 from fastapi import FastAPI
 from starlette.responses import JSONResponse
 
-from routers import documents, chat_router
+from routers import document_router, chat_router
 
 langchain.debug = True
 
@@ -12,7 +12,7 @@ app = FastAPI(
     version="1.0.1"
 )
 
-app.include_router(documents.router, prefix="/documents")
+app.include_router(document_router.router, prefix="/documents")
 app.include_router(chat_router.router, prefix="/agent")
 
 @app.get(path="/health", tags=["health"])

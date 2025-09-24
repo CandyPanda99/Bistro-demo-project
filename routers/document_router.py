@@ -1,8 +1,7 @@
-import os
-from fastapi import APIRouter, UploadFile, File, HTTPException
-from langchain_community.document_loaders import UnstructuredMarkdownLoader
-from langchain_text_splitters import RecursiveCharacterTextSplitter
+import re
 
+from fastapi import APIRouter, UploadFile, File, HTTPException
+from langchain_core.documents import Document
 from persistance.pinecone_db import get_pinecone_vector_db, index
 
 router = APIRouter()
@@ -10,24 +9,26 @@ router = APIRouter()
 @router.post("/upload", tags=["documents"])
 async def upload_document(file: UploadFile = File(...)):
     """
-    Uploads a markdown file, processes it, and adds it to the vector store.
+    Uploads a markdown file, processes it by splitting on H2 headings,
+    and adds the chunks to the vector store.
     """
-    temp_file_path = f"data/{file.filename}"
-    with open(temp_file_path, "wb") as buffer:
-        buffer.write(await file.read())
+    try:
+        contents = await file.read()
+        faq_text = contents.decode('utf-8')
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error reading file: {e}")
 
-    loader = UnstructuredMarkdownLoader(temp_file_path)
-    documents = loader.load()
+    split_pattern = r"(?=\n##\s)"
+    chunks = [chunk.strip() for chunk in re.split(split_pattern, faq_text) if chunk.strip()]
+    documents_to_add = [Document(page_content=txt) for txt in chunks]
 
-    text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
-    splits = text_splitter.split_documents(documents)
+    if not documents_to_add:
+        raise HTTPException(status_code=400, detail="No content found in the document after splitting.")
 
     vector_db = get_pinecone_vector_db()
-    vector_db.add_documents(splits)
+    vector_db.add_documents(documents_to_add)
 
-    os.remove(temp_file_path)
-
-    return {"message": "Document uploaded and processed successfully."}
+    return {"message": f"Document uploaded and processed successfully into {len(documents_to_add)} chunks."}
 
 @router.delete("/", tags=["documents"])
 async def delete_all_documents():
