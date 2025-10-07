@@ -25,7 +25,6 @@ tools = [
 prompt = ChatPromptTemplate.from_messages(
     [
         ("system", MENU_AGENT_PROMPT),
-        MessagesPlaceholder(variable_name="chat_history"),
         ("human", "{input}"),
         MessagesPlaceholder(variable_name="agent_scratchpad"),
     ]

@@ -9,4 +9,4 @@ def menu_agent_tool(query: str) -> str:
     :param query: The query to ask the menu agent.
     :return: The response from the menu agent.
     """
-    return menu_agent_executor.invoke({"input": query, "chat_history": []})
+    return menu_agent_executor.invoke({"input": query})
