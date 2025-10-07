@@ -8,7 +8,7 @@ from langgraph.prebuilt import tools_condition
 from agents.bistro_agent import bistro_assistant_runnable
 from memory.mongodb_checkpointer import get_mongodb_checkpointer
 from schemas.chat_request import ChatRequest
-from tools.ddg_search_tool import ddg_search
+from tools.serper_search_tool import serper_search_tool
 from tools.information_tool import lookup_information
 from tools.menu_agent_tool import menu_agent_tool
 from tools.reservation_tool import reservation_tool
@@ -22,7 +22,7 @@ from utils.utils import create_tool_node_with_fallback
 class ChatService:
     def __init__(self):
         self.tools = [
-            ddg_search,
+            serper_search_tool,
             lookup_information,
             menu_agent_tool,
             reservation_tool,
@@ -63,20 +63,3 @@ class ChatService:
         else:
             return "An error occurred, and no final response was generated."
 
-    async def generate_streaming_response(self, request: ChatRequest) -> AsyncGenerator[str, None]:
-        config = {
-            "configurable": {
-                "thread_id": request.session_id,
-            }
-        }
-
-        async for event in self.agent_graph.astream_events(
-            {"messages": ("user", request.query)},
-            config=config,
-            version="v1"
-        ):
-            kind = event["event"]
-            if kind == "on_chat_model_stream":
-                content = event["data"]["chunk"].content
-                if content:
-                    yield content
