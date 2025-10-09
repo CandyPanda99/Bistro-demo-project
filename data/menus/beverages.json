@@ -1,5 +1,6 @@
 {
   "category": "Beverages",
+  "currency": "LKR",
   "subcategories": [
     {
       "name": "Fresh Juices & Shooters",
